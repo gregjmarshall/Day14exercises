@@ -74,7 +74,17 @@ public class MyList {
             }
         }
         return resultList;
+        
     }
+        
+        
+        public List<Integer> quickSort(){
+            List<Integer> resultList = list;
+            List<Integer> highHalf = new ArrayList<Integer>();
+            List<Integer> lowHalf = new ArrayList<Integer>();
+            int cycleCount = 0;
+    }
+        
     public static void main(String[] args) {
         MyList testList = new MyList();
          testList.add(5);
